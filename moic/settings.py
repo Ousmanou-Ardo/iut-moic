@@ -138,4 +138,4 @@ STATIC_ROOT = os.path.join(VIEW_PATH, 'static root')
 MEDIA_ROOT = os.path.join(STATIC_ROOT, 'media')
 MEDIA_URL = '/media/'
 
-django_heroku.settings(locals())
+django_heroku.settings(locals()
