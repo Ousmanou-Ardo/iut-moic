@@ -1,1 +1,1 @@
-web: gunicorn moic.wsgi
+web: gunicorn moic.wsgi --file for cloud
