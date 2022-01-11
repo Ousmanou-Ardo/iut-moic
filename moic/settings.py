@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 import os
 from pathlib import Path
-import django_heroku
+
 from dotenv import load_dotenv
 load_dotenv()
 env_path = Path('.')/'.env'
@@ -138,4 +138,4 @@ STATIC_ROOT = os.path.join(VIEW_PATH, 'static root')
 MEDIA_ROOT = os.path.join(STATIC_ROOT, 'media')
 MEDIA_URL = '/media/'
 
-django_heroku.settings(locals()
+#django_heroku.settings(locals()
